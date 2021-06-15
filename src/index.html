@@ -2,13 +2,41 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>AMOR EM CIFRAS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
+  <header>
+    <h1>AMOR EM CIFRAS</h1>
+  </header>
+  <h2>[declare seu amor em uma mensagem secreta] </h2>
+
+  <section>
+    <div id="msg1">
+      <p>Envie uma mensagem criptografada para quem você gosta. </p>
+    </div>
+
+    <div id="msg2">
+      <p> Digite abaixo o número de caracteres que você deseja cifrar sua mensagem: </p>
+      <input type="number" name="deslocamento" id="deslocamento" placeholder="Insira um número aqui" class="number-input">
+    </div>
+
+
+    <div id="msgcripto">
+      <p> Escreva uma mensagem para alguém que você gosta e clique em <strong>criptografar</strong></p>
+      <p> <input type="text" name="encryptmessage" id="encryptmsg" placeholder="Digite aqui sua mensagem" class="text-input" > </p>
+      <p> <input type="button" value="Criptografar" id="btnencrypt"> </p>
+    </div>
+
+    <div id="msgdescripto">
+      <p> A mensagem gerada será cifrada, de acordo com o número de caracteres escolhido, envie para a pessoa e ela irá <strong>descriptografar</strong></p>
+      <p> <input type="text" name="decryptmessage" id="decryptmsg" placeholder="Digite aqui sua mensagem criptografada" class="text-input2" > </p>
+      <p> <input type="button" value="Descriptografar" id="btndecrypt"> </p>
+    </div>
+  </section>
+  <footer>
+    <p> &copy amoremcifras</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>

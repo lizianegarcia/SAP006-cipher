@@ -1,3 +1,20 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+const deslocamento = document.getElementById('deslocamento')
+const msgcriptada = document.getElementById('encryptmsg')
+const btncript = document.getElementById('btnencrypt')
+
+const msgdecript = document.getElementById('decryptmsg')
+const btndecript = document.getElementById('btndecrypt')
+
+btncript.addEventListener('click', () => {
+  const deslocamentoValor = parseInt(deslocamento.value)
+  const palavra = msgcriptada.value
+  document.getElementById('encryptmsg').value = cipher.encode(deslocamentoValor, palavra)
+} )
+
+btndecript.addEventListener('click', () => {
+  const deslocamentoValor = parseInt(deslocamento.value)
+  const palavra = msgdecript.value
+  document.getElementById('decryptmsg').value = cipher.decode(deslocamentoValor, palavra)
+} )

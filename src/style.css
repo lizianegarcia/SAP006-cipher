@@ -1,1 +1,76 @@
-/* css */
+body {
+  background-image: url();
+  background-repeat: no-repeat;
+  font: normal 15pt Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+header {
+  color: #e9967a;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  color: #694e3f;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30pt;
+}
+
+#msg1 {
+  text-align: center;
+  font-size: 16pt;
+}
+
+#msg2 {
+  text-align: center;
+  font-size: 12pt;
+}
+
+#msgcripto, #msgdescripto {
+  text-align: center;
+  background: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#btnencrypt, #btndecrypt {
+  color: #b1703a;
+  font-size: 16pt;
+  font-weight: bolder;
+  border-radius: 50px;
+  border-color: #b1703a;
+  width: 170px;
+  height: 50px;
+}
+
+#deslocamento::placeholder {
+  color: #b1703a;
+  text-align: center;
+}
+
+.text-input, .text-input2 {
+  width: 500px;
+  height: 200px;
+  background-color: transparent;
+}
+
+#encryptmsg::placeholder {
+  color: #b1703a;
+  text-align: center;
+}
+
+#decryptmsg::placeholder {
+  color: #b1703a;
+  text-align: center;
+}
+
+footer {
+  color:  #b1703a;
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
