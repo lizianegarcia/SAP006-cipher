@@ -20,18 +20,13 @@ Nela o usuário poderá cifrar e decifrar um texto indicando a chave de deslocam
 
 ## 2. Resumo do projeto :clipboard:
 
-A ideia é utilizar a criptografia dos textos para enviar mensagens para as pessoas
-que você gosta, com uma proposta de brincadeira mesmo, pois quando você encriptar a
-mensagem, ela não fará muito sentido.
-Então, você poderá enviar o link da aplicação, informando a pessoa o número que utilizou,
-para que ela assim possa descriptar a mensagem e ler.
-Estamos vivendo em um período atípico em esfera mundial, onde estamos, em nossa grande 
-maioria, há mais de um ano privados do convívio coletivo. É sabido que o ser humano, precisa
-viver em sociedade.
-O público-alvo são adolestes e adultos que gostam de se divertir e criar um mistério,
-você pode usar também com aquelx _crush_ pra descontrair ou mandar um sinal.
+Estamos vivendo em um período atípico em esfera mundial, onde estamos, em nossa grande maioria, há mais de um ano privados do convívio coletivo. É sabido que o ser humano, precisa viver em sociedade. Relacionar-se com outras pessoas é uma necessidade constante para o bem-estar psíquico e também físico.
+Dessa forma, essa aplicação propõe uma nova forma de interação, pois depois de alguns meses socializando via chamadas de vídeo e/ou áudio, tudo parece muito igual e já se torna monótono e faz com que diminuímos as interações.
+Escrever é uma forma terapêutica de demonstrar seus sentimentos, e usar a forma de criptografia para enviar algo para alguém faz com que saia da rotina e seja algo novo, tanto para quem escreve, como para quem recebe.
+A ideia é utilizar a criptografia dos textos para enviar mensagens para as pessoas que você gosta, com uma proposta de brincadeira mesmo, pois quando você criptografar a mensagem, ela não fará muito sentido.
+Então, você poderá enviar o link da aplicação, informando a pessoa o número que utilizou, para que ela assim possa descriptografar a mensagem e ler.
+O público-alvo são adolescentes e adultos que procuram uma nova alternativa de socialização, que querem se divertir e criar um mistério, enviar uma mensagem para aquele amigo que você sente falta ou até mesmo usar com aquelx _crush_ para descontrair ou mandar um sinal.
 
-A ideia inicial do projeto foi elaborada no Canva, conforme abaixo:
 
 
 ## 3. Conteúdos aprendidos :trophy:
