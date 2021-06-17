@@ -16,7 +16,7 @@
   <section>
     <div id="msg1">
       <p>Envie uma mensagem criptografada para quem você gosta. <br>
-        Vamos cifrar sua mensagem de acordo com o número de casas <br>
+        Vamos cifrar sua mensagem de acordo com o número de caracteres <br>
         que você escolher. Escreva a mensagem, criptografe e envie. <br>
         Lembre-se de avisar a pessoa o número que usou.
       </p>
@@ -24,8 +24,7 @@
 
     <div id="msg2">
       <p> Digite abaixo o número de caracteres para cifrar sua mensagem: </p>
-      <input type="number" name="deslocamento" id="deslocamento" placeholder="Insira um número aqui"
-        class="number-input">
+      <input type="number" name="offset" id="offset" placeholder="Insira um número aqui">
     </div>
 
     <div id="msgcripto">
@@ -37,7 +36,8 @@
 
     <div id="msgdescripto">
       <p> A mensagem gerada será cifrada, de acordo com o número de caracteres escolhido, envie para a pessoa e ela irá
-        <strong>descriptografar</strong></p>
+        <strong>descriptografar</strong>
+      </p>
       <p> <input type="text" name="decryptmessage" id="decryptmsg" placeholder="Digite aqui sua mensagem criptografada"
           class="text-input2"> </p>
       <p> <input type="button" value="Descriptografar" id="btndecrypt"> </p>
@@ -49,6 +49,7 @@
     <p> Saiba mais sobre a <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"> Cifra de César
       </a> </p>
   </footer>
+
   <script src="index.js" type="module"></script>
 </body>
 

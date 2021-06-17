@@ -1,19 +1,19 @@
 import cipher from './cipher.js';
 
-const deslocamento = document.getElementById('deslocamento')
-const msgcriptada = document.getElementById('encryptmsg')
-const btncript = document.getElementById('btnencrypt')
-const msgdecript = document.getElementById('decryptmsg')
-const btndecript = document.getElementById('btndecrypt')
+const offset = document.getElementById('offset')
+const encryptMsg = document.getElementById('encryptmsg')
+const encryptBtn = document.getElementById('btnencrypt')
+const decryptMsg = document.getElementById('decryptmsg')
+const decryptBtn = document.getElementById('btndecrypt')
 
-btncript.addEventListener('click', () => {
-  const deslocamentoValor = parseInt(deslocamento.value)
-  const palavra = msgcriptada.value
-  document.getElementById('decryptmsg').value = cipher.encode(deslocamentoValor, palavra)
+encryptBtn.addEventListener('click', () => {
+  const offsetValue = parseInt(offset.value)
+  const word = encryptMsg.value
+  document.getElementById('decryptmsg').value = cipher.encode(offsetValue, word)
 })
 
-btndecript.addEventListener('click', () => {
-  const deslocamentoValor = parseInt(deslocamento.value)
-  const palavra = msgdecript.value
-  document.getElementById('encryptmsg').value = cipher.decode(deslocamentoValor, palavra)
+decryptBtn.addEventListener('click', () => {
+  const offsetValue = parseInt(offset.value)
+  const word = decryptMsg.value
+  document.getElementById('encryptmsg').value = cipher.decode(offsetValue, word)
 })

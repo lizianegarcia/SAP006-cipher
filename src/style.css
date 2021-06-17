@@ -1,5 +1,5 @@
 body {
-  background-image: url(Imagem/background.png);
+  background-image: url(Imagens/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   font: normal 15pt Roboto, 'Segoe UI', Tahoma, sans-serif;
@@ -55,7 +55,7 @@ h2 {
   height: 40px;
 }
 
-#deslocamento::placeholder, #encryptmsg::placeholder, #decryptmsg::placeholder {
+#offset::placeholder, #encryptmsg::placeholder, #decryptmsg::placeholder {
   color: #8b4513;
   text-align: center;
 }
@@ -71,4 +71,5 @@ footer {
   text-align: center;
   font-style: italic;
   font-weight: bolder;
+  font-size: 12pt;
 }
