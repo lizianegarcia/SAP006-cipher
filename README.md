@@ -11,11 +11,8 @@
 
 ## 1. Apresentação do projeto :computer:
 
-Este primeito projeto do _bootcamp_ da LABORATÓRIA, consiste em uma aplicação web,
-a qual o usuário poderá cifrar e decifrar um texto.
-A criptografia utilizada neste projeto, é a Cifra de César, um tipo de cifra de
-substituição na qual cada letra do texto é substituída por outra, que se apresenta
-no alfabeto abaixo dela um número fixo de vezes.
+Este primeito projeto do _bootcamp_ da LABORATÓRIA, consiste em uma aplicação web, a qual o usuário poderá cifrar e decifrar um texto.
+A criptografia utilizada neste projeto, é a Cifra de César, um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.
 Nela o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
 ## 2. Resumo do projeto :clipboard:
