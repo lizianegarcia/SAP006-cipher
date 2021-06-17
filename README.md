@@ -1,5 +1,5 @@
-# :yellow_heart: Amor em Cifras 
-[Cifra de César]
+# :white_heart: Amor em Cifras
+[Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
 
 ## :round_pushpin: Índice
 
@@ -11,7 +11,7 @@
 
 ## 1. Apresentação do projeto :computer:
 
-Este primeito projeto do _bootcamp_ da LABORATÓRIA, consiste em uma aplicação web, a qual o usuário poderá cifrar e decifrar um texto.
+Este primeito projeto do _bootcamp_ da [LABORATÓRIA](https://www.laboratoria.la/br), consiste em uma aplicação web, a qual o usuário poderá cifrar e decifrar um texto.
 
 A criptografia utilizada neste projeto, é a Cifra de César, um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, 
 que se apresenta no alfabeto abaixo dela um número fixo de vezes.
