@@ -29,7 +29,7 @@ describe('cipher', () => {
 
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
-    
+
     it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
       expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     });
