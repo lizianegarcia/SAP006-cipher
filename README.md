@@ -70,7 +70,11 @@ A ideia inicial do projeto foi elaborada no Canva, conforme abaixo:
 
 ### UX
 
-* [ ] Desenhar a aplicação pensando e entendendo o usuário.
-* [ ] Criar protótipos para obter feedback e iterar.
-* [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+- Desenhar a aplicação pensando e entendendo o usuário.
+- Criar protótipos para obter feedback e iterar.
+- Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+
+
+## Autora
+- [@lizianegarcia](https://github.com/lizianegarcia)
 
