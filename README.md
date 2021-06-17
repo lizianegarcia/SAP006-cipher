@@ -25,6 +25,9 @@ que você gosta, com uma proposta de brincadeira mesmo, pois quando você encrip
 mensagem, ela não fará muito sentido.
 Então, você poderá enviar o link da aplicação, informando a pessoa o número que utilizou,
 para que ela assim possa descriptar a mensagem e ler.
+Estamos vivendo em um período atípico em esfera mundial, onde estamos, em nossa grande 
+maioria, há mais de um ano privados do convívio coletivo. É sabido que o ser humano, precisa
+viver em sociedade.
 O público-alvo são adolestes e adultos que gostam de se divertir e criar um mistério,
 você pode usar também com aquelx _crush_ pra descontrair ou mandar um sinal.
 
