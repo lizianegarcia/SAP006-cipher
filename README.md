@@ -12,17 +12,23 @@
 ## 1. Apresentação do projeto :computer:
 
 Este primeito projeto do _bootcamp_ da LABORATÓRIA, consiste em uma aplicação web, a qual o usuário poderá cifrar e decifrar um texto.
-A criptografia utilizada neste projeto, é a Cifra de César, um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.
+A criptografia utilizada neste projeto, é a Cifra de César, um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, 
+que se apresenta no alfabeto abaixo dela um número fixo de vezes.
 Nela o usuário poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
 
 ## 2. Resumo do projeto :clipboard:
 
-Estamos vivendo em um período atípico em esfera mundial, onde estamos, em nossa grande maioria, há mais de um ano privados do convívio coletivo. É sabido que o ser humano, precisa viver em sociedade. Relacionar-se com outras pessoas é uma necessidade constante para o bem-estar psíquico e também físico.
-Dessa forma, essa aplicação propõe uma nova forma de interação, pois depois de alguns meses socializando via chamadas de vídeo e/ou áudio, tudo parece muito igual e já se torna monótono e faz com que diminuímos as interações.
-Escrever é uma forma terapêutica de demonstrar seus sentimentos, e usar a forma de criptografia para enviar algo para alguém faz com que saia da rotina e seja algo novo, tanto para quem escreve, como para quem recebe.
-A ideia é utilizar a criptografia dos textos para enviar mensagens para as pessoas que você gosta, com uma proposta de brincadeira mesmo, pois quando você criptografar a mensagem, ela não fará muito sentido.
+Estamos vivendo em um período atípico em esfera mundial, onde estamos, em nossa grande maioria, há mais de um ano privados do convívio coletivo. 
+É sabido que o ser humano, precisa viver em sociedade. Relacionar-se com outras pessoas é uma necessidade constante para o bem-estar psíquico e também físico.
+Dessa forma, essa aplicação propõe uma nova forma de interação, pois depois de alguns meses socializando via chamadas de vídeo e/ou áudio, tudo parece muito 
+igual e já se torna monótono e faz com que diminuímos as interações.
+Escrever é uma forma terapêutica de demonstrar seus sentimentos, e usar a forma de criptografia para enviar algo para alguém faz com que saia da rotina e seja 
+algo novo, tanto para quem escreve, como para quem recebe.
+A ideia é utilizar a criptografia dos textos para enviar mensagens para as pessoas que você gosta, com uma proposta de brincadeira mesmo, pois quando você 
+criptografar a mensagem, ela não fará muito sentido.
 Então, você poderá enviar o link da aplicação, informando a pessoa o número que utilizou, para que ela assim possa descriptografar a mensagem e ler.
-O público-alvo são adolescentes e adultos que procuram uma nova alternativa de socialização, que querem se divertir e criar um mistério, enviar uma mensagem para aquele amigo que você sente falta ou até mesmo usar com aquelx _crush_ para descontrair ou mandar um sinal.
+O público-alvo são adolescentes e adultos que procuram uma nova alternativa de socialização, que querem se divertir e criar um mistério, enviar uma mensagem 
+para aquele amigo que você sente falta ou até mesmo usar com aquelx _crush_ para descontrair ou mandar um sinal.
 
 
 
