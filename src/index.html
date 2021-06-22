@@ -1,56 +1,90 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMOR EM CIFRAS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>AMOR EM CIFRAS</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <header>
+      <h1>AMOR EM CIFRAS</h1>
+    </header>
+    <h2>[declare seu amor em uma mensagem secreta]</h2>
 
-<body>
-  <header>
-    <h1>AMOR EM CIFRAS</h1>
-  </header>
-  <h2>[declare seu amor em uma mensagem secreta] </h2>
+    <main>
+      <section>
+        <div id="msg1">
+          <p>
+            Envie uma mensagem criptografada para quem você gosta. <br />
+            Vamos cifrar sua mensagem de acordo com o número de caracteres
+            <br />
+            que você escolher. Escreva a mensagem, criptografe e envie. <br />
+            Lembre-se de avisar a pessoa o número que usou.
+          </p>
+        </div>
 
-  <section>
-    <div id="msg1">
-      <p>Envie uma mensagem criptografada para quem você gosta. <br>
-        Vamos cifrar sua mensagem de acordo com o número de caracteres <br>
-        que você escolher. Escreva a mensagem, criptografe e envie. <br>
-        Lembre-se de avisar a pessoa o número que usou.
+        <div id="msg2">
+          <p>Digite abaixo o número de caracteres para cifrar sua mensagem:</p>
+          <input
+            type="number"
+            name="offset"
+            id="offset"
+            placeholder="Insira um número aqui"
+          />
+        </div>
+
+        <div id="msgcripto">
+          <p>
+            Escreva uma mensagem para alguém que você gosta e clique em
+            <strong>criptografar</strong>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="encryptmessage"
+              id="encryptmsg"
+              placeholder="Digite aqui sua mensagem"
+              class="text-input"
+            />
+          </p>
+          <p><input type="button" value="Criptografar" id="btnencrypt" /></p>
+        </div>
+
+        <div id="msgdescripto">
+          <p>
+            A mensagem gerada será cifrada, de acordo com o número de caracteres
+            escolhido, envie para a pessoa e ela irá
+            <strong>descriptografar</strong>
+          </p>
+          <p>
+            <input
+              type="text"
+              name="decryptmessage"
+              id="decryptmsg"
+              placeholder="Digite aqui sua mensagem criptografada"
+              class="text-input2"
+            />
+          </p>
+          <p><input type="button" value="Descriptografar" id="btndecrypt" /></p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy amoremcifras</p>
+      <p>
+        Saiba mais sobre a
+        <a
+          href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar"
+          target="_blank"
+        >
+          Cifra de César
+        </a>
       </p>
-    </div>
+    </footer>
 
-    <div id="msg2">
-      <p> Digite abaixo o número de caracteres para cifrar sua mensagem: </p>
-      <input type="number" name="offset" id="offset" placeholder="Insira um número aqui">
-    </div>
-
-    <div id="msgcripto">
-      <p> Escreva uma mensagem para alguém que você gosta e clique em <strong>criptografar</strong></p>
-      <p> <input type="text" name="encryptmessage" id="encryptmsg" placeholder="Digite aqui sua mensagem"
-          class="text-input"> </p>
-      <p> <input type="button" value="Criptografar" id="btnencrypt"> </p>
-    </div>
-
-    <div id="msgdescripto">
-      <p> A mensagem gerada será cifrada, de acordo com o número de caracteres escolhido, envie para a pessoa e ela irá
-        <strong>descriptografar</strong>
-      </p>
-      <p> <input type="text" name="decryptmessage" id="decryptmsg" placeholder="Digite aqui sua mensagem criptografada"
-          class="text-input2"> </p>
-      <p> <input type="button" value="Descriptografar" id="btndecrypt"> </p>
-    </div>
-  </section>
-
-  <footer>
-    <p> &copy amoremcifras</p>
-    <p> Saiba mais sobre a <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank"> Cifra de César
-      </a> </p>
-  </footer>
-
-  <script src="index.js" type="module"></script>
-</body>
-
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
