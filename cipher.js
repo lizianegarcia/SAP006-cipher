@@ -1,7 +1,7 @@
 const cipher = {
   encode: function (offset, word) {
     if (typeof offset !== "number" || typeof word !== "string") {
-      throw new TypeError
+      throw new TypeError ("Erro!")
     }
 
     let resultEncrypt = ""
@@ -19,7 +19,7 @@ const cipher = {
 
   decode: function (offset, word) {
     if (typeof offset !== "number" || typeof word !== "string") {
-      throw new TypeError
+      throw new TypeError ("Erro!")
     }
 
     let resultDecrypt = ""
